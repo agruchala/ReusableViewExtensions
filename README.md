@@ -25,6 +25,12 @@ ReusableViewExtensions is available through [Carthage](https://github.com/Cartha
 github "agruchala/ReusableViewExtensions"
 ```
 
+### Swift Package Manager
+ReusableViewExtensions is available through [Swift Package Manager](https://github.com/apple/swift-package-manager). To install it, simply add the following git link to your packages:
+```
+https://github.com/agruchala/ReusableViewExtensions.git
+```
+
 ## Requirements
 * Swift 4.x
 
