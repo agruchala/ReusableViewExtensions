@@ -21,6 +21,9 @@ ReusableViewExtensions is available through [Carthage](https://github.com/Cartha
 github "agruchala/ReusableViewExtensions"
 ```
 
+## Requirements
+* Swift 4.x
+
 ## Usage
 
 If You have installed framework everything should work out of the box for Your `UITableViewCell`s and `UICollectionViewCell`s. To use it when You want to get cell in data source
