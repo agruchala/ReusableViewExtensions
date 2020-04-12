@@ -1,0 +1,6 @@
+framework module ReusableViewExtensions {
+  umbrella header "ReusableViewExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

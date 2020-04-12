@@ -1,0 +1,6 @@
+framework module Pods_ReusableViewExtensions_Tests {
+  umbrella header "Pods-ReusableViewExtensions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
