@@ -85,6 +85,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				FA468C0F2443425D001E39EB /* Swift Package Manager support */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ReusableViewExtensions */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -163,6 +164,13 @@
 				F7FCE7AFD2A81C12E9C16948 /* Pods-ReusableViewExtensions_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA468C0F2443425D001E39EB /* Swift Package Manager support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Swift Package Manager support";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

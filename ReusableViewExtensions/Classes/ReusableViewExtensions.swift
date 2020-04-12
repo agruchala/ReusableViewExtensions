@@ -5,7 +5,8 @@
 //  Created by Artur Gruchała on 04/12/2020.
 //  Copyright (c) 2020 Artur Gruchała. All rights reserved.
 //
-
+#if canImport(UIKit)
+// MARK:- Reusable protocol
 import UIKit
 /// Protocol for reusable views
 public protocol Reusable: AnyObject {
@@ -25,10 +26,11 @@ public extension Reusable {
     }
 }
 
+// MARK:- Cells protocol conformance
 extension UITableViewCell: Reusable { }
 extension UICollectionViewCell: Reusable { }
 
-
+// MARK:- `UITableView` helper methods
 public extension UITableView {
     /// Dequeue table view cell by its type
     /// - Parameter indexPath: index path of new row
@@ -51,6 +53,7 @@ public extension UITableView {
     }
 }
 
+// MARK:- `UICollectionView` helper methods
 public extension UICollectionView {
     /// Dequeue collection view cell by its type
     /// - Parameter indexPath: index path of new row
@@ -73,3 +76,4 @@ public extension UICollectionView {
                  forCellWithReuseIdentifier: nibType.reuseIdentifier)
     }
 }
+#endif

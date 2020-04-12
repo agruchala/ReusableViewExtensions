@@ -5,6 +5,10 @@
 [![Platform](https://img.shields.io/cocoapods/p/ReusableViewExtensions.svg?style=flat)](https://cocoapods.org/pods/ReusableViewExtensions)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
+Do You hate registering `UITableViewCell` by `String` identifier? Remembering all of them, some in Storyboards, some hidded somewhere in constants?
+
+NO MORE! Use **ReusableViewExtensions**!
+
 ## Installation
 
 ### CocoaPods
