@@ -5,6 +5,10 @@
 [![Platform](https://img.shields.io/cocoapods/p/ReusableViewExtensions.svg?style=flat)](https://cocoapods.org/pods/ReusableViewExtensions)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Installation
 
 ### CocoaPods
