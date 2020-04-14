@@ -5,6 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/ReusableViewExtensions.svg?style=flat)](https://cocoapods.org/pods/ReusableViewExtensions)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![Build Status](https://travis-ci.org/agruchala/ReusableViewExtensions.svg?branch=master)](https://travis-ci.org/agruchala/ReusableViewExtensions)
 
 Do You hate registering `UITableViewCell` by `String` identifier? Remembering all of them, some in Storyboards, some hidded somewhere in constants?
 
