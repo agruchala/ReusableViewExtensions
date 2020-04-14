@@ -19,7 +19,7 @@ public protocol Reusable: AnyObject {
 public extension Reusable {
     /// Returns `identifier` - class name
     static var reuseIdentifier: String {
-        String(describing: self)
+        String(String(describing: self).split(separator: ".").last!)
     }
     var identifier: String {
         return Self.reuseIdentifier
@@ -36,6 +36,11 @@ public extension UITableView {
     /// - Parameter indexPath: index path of new row
     func dequeue<T: Reusable>(for indexPath: IndexPath) -> T {
         return dequeueReusableCell(withIdentifier: T.reuseIdentifier, for: indexPath) as! T
+    }
+    
+    /// Dequeue table view cell by its type
+    func dequeue<T: Reusable>() -> T {
+        return dequeueReusableCell(withIdentifier: T.reuseIdentifier) as! T
     }
     
     /// Register new cell by its type
