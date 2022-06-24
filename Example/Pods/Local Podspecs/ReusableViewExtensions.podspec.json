@@ -2,8 +2,8 @@
   "name": "ReusableViewExtensions",
   "version": "0.1.0",
   "summary": "Helper methods for UITableView and UICollectionView reusable views",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Artur Gruchała/ReusableViewExtensions",
+  "description": "Set of extensions for UITableView and UICollectionView for handling cells reusability. Hides casting and eliminates finding cells by Strings.",
+  "homepage": "https://github.com/agruchala/ReusableViewExtensions",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -19,5 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "ReusableViewExtensions/Classes/**/*",
-  "frameworks": "UIKit"
+  "frameworks": "UIKit",
+  "swift_versions": "4.0",
+  "swift_version": "4.0"
 }

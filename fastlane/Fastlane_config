@@ -1,0 +1,14 @@
+platform :ios do
+  class Config
+    WORKSPACE = "Example/ReusableViewExtensions.xcworkspace"
+    TEST_SCHEME = "ReusableViewExtensions-Example"
+    BUILD_SCHEME = "ReusableViewExtensions"
+    TEST_DEVICES = ["iPhone 6s", "iPad Air"]
+    PLATFORMS = ["iOS", "iOS Simulator"]
+    PRODUCT_NAMES = {
+      "iOS" => "iOS",
+      "iOS Simulator" => "Sim"
+    }
+    ARCHIVE_PATH = "archive/"
+  end
+end
