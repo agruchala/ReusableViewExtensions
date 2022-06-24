@@ -4,11 +4,12 @@ platform :ios do
     TEST_SCHEME = "ReusableViewExtensions-Example"
     BUILD_SCHEME = "ReusableViewExtensions"
     TEST_DEVICES = ["iPhone 6s", "iPad Air"]
-    PLATFORMS = ["iOS", "iOS Simulator"]
+    PLATFORMS = ["iOS"]
     PRODUCT_NAMES = {
       "iOS" => "iOS",
       "iOS Simulator" => "Sim"
     }
-    ARCHIVE_PATH = "archive/"
+    ARCHIVE_PATH = "archive"
+    PODSPEC_FILE = "ReusableViewExtensions.podspec"
   end
 end

@@ -35,8 +35,13 @@ platform :ios do
       workspace: Config::WORKSPACE,
       scheme: Config::BUILD_SCHEME,
       product_name: Config::BUILD_SCHEME,
-      destinations: ['iOS'],
+      destinations: Config::PLATFORMS,
       xcframework_output_directory: Config::ARCHIVE_PATH
     )
+  end
+
+  desc "Push new version to pod trunk"
+  lane :release_pod do
+    pod_push(path: Config::PODSPEC_FILE)
   end
 end
